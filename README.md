@@ -11,7 +11,7 @@ Desenvolvido para ajudar iniciantes e entusiastas a prepararem seu ambiente com 
 Execute diretamente no terminal:
 
 ```bash
-curl -sSL https://raw.githubusercontent.com/sudoIoti/SETUPSec/main/install.sh | bash
+curl -sSL (https://raw.githubusercontent.com/sudoIoti/SETUPSec/main/install.sh)
 ```
 
 > ✅ Compatível com **Debian 11+** e **Ubuntu 20.04+**  
