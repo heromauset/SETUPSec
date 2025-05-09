@@ -12,46 +12,68 @@ Execute diretamente no terminal:
 
 ```bash
 curl -sSL https://raw.githubusercontent.com/sudoIoti/SETUPSec/main/install.sh | bash
-✅ Compatível com Debian 11+ e Ubuntu 20.04+
-⚠️ Necessário rodar como root ou com permissões sudo
+```
 
-🛠️ Ferramentas disponíveis no menu
-Ferramenta	Função principal
-Nmap	Varredura e auditoria de redes
-Sn1per	Reconhecimento automatizado de alvos
-Metasploit	Framework para exploração de vulnerabilidades
-Wireshark (Tshark)	Captura e análise de pacotes de rede (CLI)
-SEToolkit	Ataques de engenharia social simulados
+> ✅ Compatível com **Debian 11+** e **Ubuntu 20.04+**  
+> ⚠️ Necessário rodar como **root** ou com permissões `sudo`
 
-Cada item no menu oferece opções para:
+---
 
-📥 Instalar a ferramenta
+## 🛠️ Ferramentas disponíveis no menu
 
-📘 Ver explicações e exemplos práticos
+| Ferramenta          | Função principal                                |
+|---------------------|--------------------------------------------------|
+| **Nmap**            | Varredura e auditoria de redes                  |
+| **Sn1per**          | Reconhecimento automatizado de alvos           |
+| **Metasploit**      | Framework para exploração de vulnerabilidades   |
+| **Wireshark (Tshark)** | Captura e análise de pacotes de rede (CLI)  |
+| **SEToolkit**       | Simulações de ataques de engenharia social      |
 
-💻 Rodar comandos básicos
+Cada item do menu oferece:
 
-📋 Requisitos
-Distribuição baseada em Debian ou Ubuntu
+- 📥 Instalação da ferramenta  
+- 📘 Explicações e exemplos de uso  
+- 💻 Comandos básicos prontos para executar
 
-Acesso root/sudo
+---
 
-Conexão com a internet
+## 📋 Requisitos
 
-O script também verifica e instala automaticamente dependências básicas como curl, git e sudo.
+- Distribuição baseada em **Debian** ou **Ubuntu**
+- Acesso com `root` ou permissões via `sudo`
+- Conexão com a internet
 
-🧠 Objetivo
-O SETUPSec nasceu com o propósito de economizar tempo e tornar o aprendizado mais acessível, especialmente para quem está montando laboratórios locais de cibersegurança, participando de CTFs, estudando para certificações ou praticando em ambientes controlados.
+> O script também instala automaticamente dependências como `curl`, `git` e `sudo`, caso não estejam presentes.
 
-📁 Estrutura
-bash
-Copiar
-Editar
+---
+
+## 🧠 Objetivo
+
+O `SETUPSec` nasceu com o propósito de **economizar tempo** e tornar o aprendizado mais acessível — especialmente para quem está:
+
+- Montando laboratórios locais de cibersegurança  
+- Participando de **CTFs**  
+- Estudando para certificações  
+- Praticando em ambientes controlados
+
+---
+
+## 📁 Estrutura
+
+```bash
 SETUPSec/
 └── install.sh     # Script principal com menu interativo
-📜 Licença
-Distribuído sob a licença MIT.
+```
 
-✍️ Autor
-Desenvolvido por @sudoIoti (Maurício)
-Marca: Ioti =)
+---
+
+## 📜 Licença
+
+Distribuído sob a licença [MIT](LICENSE).
+
+---
+
+## ✍️ Autor
+
+Desenvolvido por [@sudoIoti (Maurício)](https://github.com/sudoIoti)  
+Marca: **Ioti =)**
