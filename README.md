@@ -74,6 +74,4 @@ Distribuído sob a licença [MIT](LICENSE).
 ---
 
 ## ✍️ Autor
-
-Desenvolvido por [@sudoIoti (Maurício)](https://github.com/sudoIoti)  
-Marca: **Ioti =)**
+**Ioti =)**
